@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flower.AC | Store</title>
+    <!-- FAV.ICOn -->
+    <link rel="shortcut icon" href="/gambar/icon/apple-touch-icon.png" type="image/x-icon" />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animate.CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">Flower.AC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a class="nav-link active mx-1" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#produk">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-1" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- HERO -->
+    <div class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1 class="text-white fw-bold animate__animated animate__fadeInDown animate__delay-1s">Flower's artificial</h1>
+            <p class="text-white mb-4 text-opacity-75 animate__fadeInUp animate__delay-1s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit quidem quo inventore, neque aliquid voluptatum.</p>
+            <button class="btn btn-primary rounded-1 me-2 animate__fadeInUp animate__delay-1s" href="#produk">Lihat Produk</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END HERO -->
+
+    <!-- About -->
+    <div class="about" id="about">
+      <div class="container-fluid">
+        <div class="row row-cols-lg-3 row-cols-1">
+          <div class="col text-center py-5 bg-black text-white">
+            <h2 data-aos="fade-right" data-aos-duration="1000">Start From</h2>
+            <h2 class="fw-bold" data-aos="fade-right" data-aos-duration="1000">50k<i class="fa-solid fa-money-bill mx-3"></i></h2>
+            <p data-aos="fade-right" data-aos-duration="1000">
+              Dengan banyak pilihan <br />
+              Dan style bucket
+            </p>
+          </div>
+          <div class="col text-center py-5 bg-success-subtle">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Ongkos Kirim</h2>
+            <h2 class="fw-bold" data-aos="fade-down" data-aos-duration="1000">5K<i class="fa-solid fa-truck mx-3"></i></h2>
+            <p data-aos="fade-down" data-aos-duration="1000">
+              Untuk wilayah Bukittinggi<br />
+              Dan Sekitarnya
+            </p>
+          </div>
+          <div class="col text-center py-5" style="background-color: #bbbaa1">
+            <h2 data-aos="fade-left" data-aos-duration="1000">Custom</h2>
+            <h2 class="fw-bold" data-aos="fade-left" data-aos-duration="1000">Pre Order<i class="fa-solid fa-wand-magic-sparkles mx-3"></i></h2>
+            <p data-aos="fade-left" data-aos-duration="1000">Custom Bucket <br />& Papan Nama</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END About -->
+
+    <!-- Product -->
+    <div class="produk-title" id="produk">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="fw-bold border-bottom" data-aos="fade-right" data-aos-duration="1000">Produk</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5 me-1 pro g-1">
+        <!-- p1 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p10.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 150.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p2 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p2.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 100.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Card link</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p3 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 90.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p4 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p4.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 200.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p5 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p5.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 100.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p6 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p6.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 90.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p7 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p7.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 75.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p8 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p3.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 120.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+        <!-- p9 -->
+        <div class="col mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+          <div class="card" style="width: 18rem">
+            <img src="/gambar/produk/p9.jpg" class="card-img-top" />
+            <div class="card-body">
+              <h5 class="card-title">Bucket Bunga</h5>
+              <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">IDR 80.000</li>
+              <li class="list-group-item">Pre Order</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary mx-2 w-50">Pesan</a>
+              <a href="#" class="card-link mx-4">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END Product -->
+
+    <!-- FAQ -->
+    <div class="faq" id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2 class="fw-bold border-bottom pb-2" data-aos="fade-right" data-aos-duration="1000">FAQ</h2>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <!-- accordion 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Cara Pemesanan</button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    1. Pesan dengan Klik tombol Pesan <br />2. Langsung di arahkan ke wa <br />3. Tinggal hubungi admin untuk pemesanan lewat wa <br />4. Harga pesanan belum termasuk Ongkir <br />5. Area Bukittinggi dan sekitarnya mulai
+                    dari 5rb an aja, diluar Kota Bukittinggi bisa di sesuai kan estimasi harga pengiriman, biar dapat Gratis Ongkir langsung aja pesan lewat Toko Shopee Kami, terima kasih. <br />Have A Nice Day :^
+                  </div>
+                </div>
+              </div>
+              <!-- accordion 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Custom Papan Nama</button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Untuk pemesanan papan nama untuk wisuda atau pernihakan, pembuatan nya selama 3 hari, harap di pesan 3 hari sebelum pemesanan, terima kasih.</div>
+                </div>
+              </div>
+              <!-- accordion 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Custom Bucket Bunga</button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Custom Bucket Pre Order, mulai dari 1 hari pengerjaan tergantung dari pesanan Bucket nya,</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FAQ -->
+
+    <!-- FOOTER -->
+    <div class="footer pt-2">
+      <div class="container">
+        <div class="row row-cols-lg-2 row-cols-1">
+          <div class="col mb-lg-0 mb-4">
+            <h2 class="fw-bold text-white mb-3">Flower.AC</h2>
+            <p class="">Jangan Lupa mampir lagi Untuk lihat update terbaru dari kami.</p>
+          </div>
+          <div class="col d-flex flex-column mb-lg-0 mb-4" id="contact">
+            <h5 class="fw-semibold text-white">Contact</h5>
+            <a href="https://www.instagram.com/hibucketbalon/" class="mt-3 text-decoration-none text-dark"><i class="fa-brands fa-instagram mx-3"></i>@hibucketbalon</a>
+            <a href="mailto:clausasdia06@gmail.com" class="mt-3 text-decoration-none text-dark"><i class="fa-regular fa-envelope mx-3"></i>clausasdia06@gmail.com </a>
+            <a href="https://wa.me/082181724496" class="mt-3 text-decoration-none text-dark"><i class="fa-brands fa-whatsapp mx-3"></i>+6282181724496</a>
+            <a href="#" class="mt-3 text-decoration-none text-dark"><i class="fa-solid fa-store mx-3"></i>Shopee</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p class="text-white text-center copyright pt-5">&copy; Copyright 2023 by abelcolaparta, All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END FOOTER -->
+
+    <!-- BootstrapJS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="/script.js"></script>
+    <!-- AOS Script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

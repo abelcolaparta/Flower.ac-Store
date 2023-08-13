@@ -1,0 +1,81 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #FFCDA8;
+    overflow-x: hidden;
+}
+
+.navbar {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.nav-link:hover {
+    color: #fff;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+
+.navbar.scrolling-active {
+    background-color: #c78c8c;
+    padding: 15px 0 15px 0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/gambar/slide/slide1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero h1 {
+    --animate-delay: 0.7s;
+}
+
+.hero p {
+    --animate-delay: 1.2s;
+}
+
+.hero button {
+    --animate-delay: 1.7s;
+}
+
+.produk-title {
+    padding-top: 100px;
+}
+
+.pro {
+    width: 100%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq {
+    padding-top: 50px;
+}
+
+.faq .accordion {
+    --bs-accordion-bg: #828b38;
+}
+
+.card img {
+    height: 300px;
+}
+
+.footer {
+    min-height: 30vh;
+    background-color: #c78c8c;
+    margin-top: 50px;
+    padding-top: 30px;
+}
